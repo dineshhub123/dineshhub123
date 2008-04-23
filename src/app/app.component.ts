@@ -7,8 +7,8 @@ import 'rxjs/add/Observable/throw';
 import 'rxjs/add/operator/catch';
 @Component({
   selector: 'app-root',
-  template:'<app-reactform></app-reactform>',  
-  styleUrls:['./app.component.css'],
+  templateUrl:'./app.component.html',  
+  styleUrls:['./app.component.css']
 })
 export class AppComponent {
   public result:any;

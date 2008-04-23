@@ -9,7 +9,7 @@ import { ReactformComponent } from './reactform/reactform.component';
   declarations: [
     AppComponent,
     MydirectiveDirective,
-    ReactformComponent,
+    ReactformComponent
   ],
   imports: [
     BrowserModule,
