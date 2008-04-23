@@ -7,20 +7,20 @@ import { FormGroup,FormControl,FormBuilder } from '@angular/forms';
   styleUrls: ['./reactform.component.css']
 })
 export class ReactformComponent implements OnInit {
-signupform:FormGroup;
-firstname:string="";
-lastname:string="";
-email:string="";
-password:string="";
-  constructor(private firmbuilder:FormBuilder) {
-    this.signupform=firmbuilder.group({
-fname:new FormControl(),
-lname:new FormControl(),
-email:new FormControl(),
-password: new FormControl()
+//signupform:FormGroup;
+//firstname:string="";
+//lastname:string="";
+//email:string="";
+//password:string="";
+  //constructor(private firmbuilder:FormBuilder) {
+    //this.signupform=firmbuilder.group({
+//fname:new FormControl(),
+//lname:new FormControl(),
+//email:new FormControl(),
+//password: new FormControl()
 
-    });
-   }
+  //  });
+   //}
 
   ngOnInit() {}
     postdata(signupform:NgForm)
