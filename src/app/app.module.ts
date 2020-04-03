@@ -4,12 +4,10 @@ import { FormsModule } from '@angular/forms';
 import { HttpModule } from '@angular/http';
 import { AppComponent } from './app.component';
 import { MydirectiveDirective } from './mydirective.directive';
-import { HomecomponentComponent } from './homecomponent/homecomponent.component';
 @NgModule({
   declarations: [
     AppComponent,
     MydirectiveDirective,
-    HomecomponentComponent,
   ],
   imports: [
     BrowserModule,
