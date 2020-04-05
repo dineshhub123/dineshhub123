@@ -1,12 +1,12 @@
 .one{
-color:blue;
+color:red;
 }
 .two{
     font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
 }
 .three{
-    font-size: 20px;
+    font-size: 15px;
 }
 .four{
-    background-color: chocolate;
+    text-align: center;
 }
