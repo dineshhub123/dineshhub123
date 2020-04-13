@@ -2,6 +2,11 @@ h3{
     font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
     color: red;
 }
+table{
+    border: 1px solid;
+    width: 600px;
+    background-color: yellowgreen;
+}
  th{
 height: 30px;
 background-color: black;

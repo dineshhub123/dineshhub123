@@ -7,7 +7,7 @@ import 'rxjs/add/Observable/throw';
 import 'rxjs/add/operator/catch';
 @Component({
   selector: 'app-root',
-  template:'<app-template-driven></app-template-driven><app-add-cart></app-add-cart>',  
+  template:'<app-add-cart></app-add-cart>',  
   styleUrls:['./app.component.css']
 })
 export class AppComponent {
