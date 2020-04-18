@@ -20,3 +20,13 @@ width: 100%;
 th{
     color:red;
 }
+header{
+border: 1px solid red;
+text-align: center;
+font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+background-color: rgba(226, 230, 123, 0.384);
+color: saddlebrown;
+font-weight:bold;
+margin: 0px;
+
+}
