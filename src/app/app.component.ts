@@ -8,7 +8,6 @@ import 'rxjs/add/operator/catch';
 @Component({
   selector: 'app-root',
   template:'<app-add-cart></app-add-cart>',  
-  styleUrls:['./app.component.css']
 })
 export class AppComponent {
   public result:any;
