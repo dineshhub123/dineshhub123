@@ -1,0 +1,22 @@
+.one{
+    color:red;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    text-align: center;
+}
+tr:nth-child(even){
+background-color: rgba(226, 230, 123, 0.384);
+color:rgb(23, 163, 121);
+}
+tr:nth-child(odd){
+    background-color: lightgoldenrodyellow;
+    color:green;
+
+}
+table{
+text-align: center;
+width: 100%;
+;
+}
+th{
+    color:red;
+}
