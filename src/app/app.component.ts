@@ -7,7 +7,8 @@ import 'rxjs/add/Observable/throw';
 import 'rxjs/add/operator/catch';
 @Component({
   selector: 'app-root',
-  templateUrl:'./app.component.html',  
+  template:'<app-template-driven></app-template-driven>',  
+  
 })
 export class AppComponent {
   public result:any;
